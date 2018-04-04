@@ -6,9 +6,11 @@
       </figure>
     </div>
     <div class="card-content">
-      <p class="title is-5">{{ title }}</p>
-      <div class="content">
-        {{ description }}
+      <div class="card-content-wrapper">
+        <p class="title is-5">{{ title }}</p>
+        <div class="content">
+          {{ description }}
+        </div>
       </div>
     </div>
   </div>
@@ -25,9 +27,10 @@ export default {
 }
 </script>
 
-<style>
-  .card-content{
-    height: 188px;
+<style scoped>
+  /* TODO set only for tablet above*/
+  .card-content-wrapper{
+    height: 165px;
     overflow: hidden;
   }
 </style>
