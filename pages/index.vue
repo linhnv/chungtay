@@ -1,7 +1,7 @@
 <template>
   <div>
     <navbar/>
-    <section class="hero is-primary">
+    <section class="hero is-primary is-medium">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
