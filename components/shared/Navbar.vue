@@ -2,9 +2,9 @@
   <nav class="navbar is-transparent">
     <div class="container">
       <div class="navbar-brand">
-        <a class="navbar-item" href="/">
+        <router-link to="/" class="navbar-item">
           <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
-        </a>
+        </router-link>
         <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
           <span></span>
           <span></span>
@@ -14,12 +14,12 @@
 
       <div id="navbarExampleTransparentExample" class="navbar-menu">
         <div class="navbar-start">
-          <a class="navbar-item" href="/">
+          <router-link to="/" class="navbar-item">
             Browse
-          </a>
-          <a class="navbar-item" href="/">
+          </router-link>
+          <router-link to="/" class="navbar-item">
             Fundraise
-          </a>
+          </router-link>
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link" href="/documentation/overview/start/">
               Docs
